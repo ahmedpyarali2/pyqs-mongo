@@ -58,6 +58,9 @@ query = parse(qs)
 print(query)
 ```
 
+## Tests
+* Coming Soon
+
 
 ### Collaborators
 
