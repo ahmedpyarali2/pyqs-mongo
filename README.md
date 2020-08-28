@@ -53,7 +53,7 @@ pip install pyqs-mongo
 ```python
 from pyqs_mongo import parse
 
-qs = 'ct=32&item=<=99&item=>=2&item=>=100&name=>100&name=<=99&foo=[]1&foo=[!]2'
+qs = 'name=ahmed&company=someCompany&age=>=20&age=<=50&username=[]ahmed&username=[]adh&username=[!]some'
 query = parse(qs)
 print(query)
 ```
