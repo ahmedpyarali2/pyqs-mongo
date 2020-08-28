@@ -9,6 +9,7 @@
         - $gt
         - $gte
         - $lt
+        - $lte
         - $ne
         - $in
         - $nin
